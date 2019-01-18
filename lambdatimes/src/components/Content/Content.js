@@ -46,13 +46,16 @@ export default class Content extends Component {
    if(this.state.selected ==='all'){
     return this.state.cards;}
     else{
-      this.state.cards.filter(card=>{
-        if(this.state.selected === this.state.tabs){
-          return card;
-        }
-      })
+      return this.state.cards.filter(card=>card.tab === this.state.selected)
+        //  if(this.state.selected === card.tab/*this.state.tabs*/){
+        //   return this.state.cards;
+        
+        
+        
+      
+      
     }
-    // this.setState({cards:cards});
+    //  this.setState({cards:cards});
   };
 
   render() {
