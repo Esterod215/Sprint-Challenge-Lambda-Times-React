@@ -1,0 +1,7 @@
+1. PropTypes are used for checking data in javascript. It ensures we pass down our props as we intend and sends us an error message when we dont so it helps with debugging code. It is especially useful when passing down a large number of props and data.
+
+2. A life cycle event is one that occurs at a stage of the React lifecycle. Such as componentDidMount that allows us to fetch data and is part of the mounting stage of the lifecycle. The other parts of the lifecycle is the updating stage where the app is static and awaits something like setState to update state, the last part is the unmounting stage which wipes off things like listeners to ensure there is no unexpected behavior.
+
+3. A higher order component allows us to reuse a component logic and in essence is a function that receives a compnent and returns a new component.
+
+4. The three different ways to style a component are through using: straight up CSS, using a library like bootstrap or reactsrtap, or using styled components. Using straight up Css feels more familiar but can be more difficult to implement complicated designs and animations. Using a library like reactsrtap makes it easy to add complicated designs as they are already done for you but doesnt leave that much room to custiomize them. Using styled components allows for making your own custom components to style your app and allows you to add in some pre-made styles also with more customization options.
