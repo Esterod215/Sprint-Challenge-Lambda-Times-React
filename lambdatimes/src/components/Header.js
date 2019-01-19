@@ -12,6 +12,11 @@ display: flex;
   height: 120px;
   margin-top: 44px;
   padding-bottom: 15px;
+  @media (min-width: 1280px) {
+    
+      width: 1280px;
+    
+  }
 `;
 const HeaderSpanDate=styled.span`
 align-self: flex-end;
